@@ -39,8 +39,9 @@ button { font: inherit; }
 h1,h2,h3,p { margin-top: 0; }
 h1,h2 { font-family: "Noto Serif JP", serif; font-weight: 600; letter-spacing: .035em; }
 h1 { max-width: 850px; margin-bottom: 26px; font-size: clamp(38px, 5vw, 66px); line-height: 1.45; text-shadow: 0 2px 20px rgba(0,0,0,.18); }
-h1 span { font-size: .72em; }
+h1 .headline-sub { font-size: .72em; }
 h2 { margin-bottom: 0; font-size: clamp(30px, 3.2vw, 44px); line-height: 1.5; }
+.headline-line { display: block; white-space: nowrap; }
 h3 { font-size: 20px; line-height: 1.55; }
 .hero-copy { margin-bottom: 34px; font-size: 16px; letter-spacing: .06em; }
 .hero-actions { display: flex; align-items: center; gap: 30px; }
@@ -177,8 +178,9 @@ h3 { font-size: 20px; line-height: 1.55; }
   .hero-image { background-position: 62% center; }
   .hero-overlay { background: linear-gradient(0deg,rgba(15,14,12,.94) 0%,rgba(15,14,12,.5) 75%,rgba(15,14,12,.25) 100%); }
   .hero-content { padding-top: 120px; }
-  h1 { font-size: 35px; line-height: 1.5; }
-  h1 span { font-size: .68em; }
+  h1 { font-size: clamp(27px, 8.8vw, 35px); line-height: 1.5; }
+  h1 .headline-sub { font-size: .68em; }
+  h2 .headline-line { font-size: clamp(21px, 6.3vw, 30px); }
   .hero-copy { font-size: 14px; }
   .hero-actions { align-items: stretch; flex-direction: column; gap: 20px; }
   .text-link { align-self: flex-start; }
