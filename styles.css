@@ -142,6 +142,7 @@ h3 { font-size: 20px; line-height: 1.55; }
 .contact-freecall small { display: block; color: var(--gold); font: 700 11px/1.5 "Noto Sans JP",sans-serif; letter-spacing: .12em; }
 .contact-tel { display: inline-block; margin-top: 8px; font-size: 18px; font-weight: 700; }
 .contact-fax { display: inline-block; margin: 0 0 0 14px; }
+.contact-hours { margin: 8px 0 0; color: var(--ink)!important; font-weight: 600; }
 .contact-email { width: 100%; margin-top: 25px; }
 .contact-address { margin: 22px 0 0!important; padding-top: 18px; border-top: 1px solid var(--line); line-height: 1.8; }
 .site-footer { padding: 55px 0 20px; color: #d0ccc4; background: #0d0c0a; }
